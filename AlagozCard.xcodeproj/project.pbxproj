@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A573B3D236F652200D6EAC4 /* AlagozCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlagozCard.entitlements; sourceTree = "<group>"; };
 		FB15F272234FCAF0002F1BE3 /* AlagozCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlagozCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB15F275234FCAF0002F1BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB15F277234FCAF0002F1BE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		FB15F274234FCAF0002F1BE3 /* AlagozCard */ = {
 			isa = PBXGroup;
 			children = (
+				9A573B3D236F652200D6EAC4 /* AlagozCard.entitlements */,
 				FB15F289234FCDB2002F1BE3 /* Fonts */,
 				FB15F275234FCAF0002F1BE3 /* AppDelegate.swift */,
 				FB15F277234FCAF0002F1BE3 /* SceneDelegate.swift */,
@@ -300,7 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlagozCard/AlagozCard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AlagozCard/Preview Content\"";
 				DEVELOPMENT_TEAM = QZHTVJPM43;
 				ENABLE_PREVIEWS = YES;
@@ -311,6 +315,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = alagozsoftware.AlagozCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,7 +325,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlagozCard/AlagozCard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AlagozCard/Preview Content\"";
 				DEVELOPMENT_TEAM = QZHTVJPM43;
 				ENABLE_PREVIEWS = YES;
@@ -331,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = alagozsoftware.AlagozCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
